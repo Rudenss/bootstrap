@@ -1,0 +1,15 @@
+.container {
+  padding-top: 50px;
+}
+
+.input-group {
+  margin-top: 30px;
+}
+
+/** nth-child 속성을 사용해야 할 경우
+ * .input-group 태그들만 해당 영역에 있어야
+ * (다른 태그들은 없이) nth-child(숫자)의 문법이 실행 가능하다
+ */
+.input-group:nth-child(1) {
+  margin-top: 0;
+}

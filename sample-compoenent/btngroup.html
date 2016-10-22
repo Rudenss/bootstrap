@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap - Btngroup</title>
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <section class="container" style="padding-top: 50px;">
+      <div class="btn-group btn-group-justified" role="group" aria-label="...">
+        <div class="btn-group" role="group">
+          <button type="button" class="btn btn-primary">Left</button>
+        </div>
+        <div class="btn-group" role="group">
+          <button type="button" class="btn btn-warning">Middle</button>
+        </div>
+        <div class="btn-group" role="group">
+          <button type="button" class="btn btn-danger">Right</button>
+        </div>
+      </div>
+      <button type="button" class="btn btn-success btn-block">Success</button>
+
+      <div class="btn-group" role="group" aria-label="..."  style="margin-top: 50px;">
+        <button type="button" class="btn btn-default">1</button>
+        <button type="button" class="btn btn-default">2</button>
+
+        <div class="btn-group" role="group">
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+            Dropdown
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" role="menu">
+            <li role="presentation" class="dropdown-header">Welcome!</li>
+            <li><a href="#">Dropdown link1</a></li>
+            <li role="presentation" class="divider"></li>
+            <li><a href="#">Dropdown link2</a></li>
+            <li><a href="#">Dropdown link3</a></li>
+            <li><a href="#">Dropdown link4</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <script src="./lib/jquery-3.1.1.min.js"></script>
+    <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

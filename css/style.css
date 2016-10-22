@@ -1,0 +1,19 @@
+body{
+  background: url('../img/bg_hs.jpg') no-repeat;
+  background-size: 100%;
+}
+@media (max-width:768px){
+  body{
+    padding-top: 190px;
+    background-position: 0px 140px;
+  }
+}
+@media (min-width:769px){
+  body{
+    padding-top: 100px;
+    background-position: 0px 50px;
+  }
+}
+img{
+  width: 100%;
+}

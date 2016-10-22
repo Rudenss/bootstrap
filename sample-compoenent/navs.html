@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap - Navs</title>
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./lib/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/navs.css">
+  </head>
+  <body>
+    <section class="container">
+      <ul class="nav nav-tabs">
+        <li role="presentation" class="active"><a href="#"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+        <li role="presentation"><a href="#"><i class="fa fa-user" aria-hidden="true"></i> Profile</a></li>
+        <li role="presentation"><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i> Messages</a></li>
+      </ul>
+      <ul class="nav nav-pills nav-justified">
+        <li role="presentation" class="active"><a href="#"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+        <li role="presentation"><a href="#"><i class="fa fa-user" aria-hidden="true"></i> Profile</a></li>
+        <li role="presentation" class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">
+            <i class="fa fa-envelope" aria-hidden="true"></i> Messages <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Inbox</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Outbox</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav nav-pills nav-stacked">
+        <li role="presentation"><a href="#"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+        <li role="presentation" class="active"><a href="#"><i class="fa fa-user" aria-hidden="true"></i> Profile</a></li>
+        <li role="presentation"><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i> Messages</a></li>
+      </ul>
+    </section>
+
+    <script src="./lib/jquery-3.1.1.min.js"></script>
+    <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

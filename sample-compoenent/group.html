@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap - Group</title>
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./lib/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <section class="container" style="padding-top: 70px;">
+      <ul class="list-group">
+        <li class="list-group-item"><span class="badge">50</span>Cras justo odio</li>
+        <li class="list-group-item">Dapibus ac facilisis in</li>
+        <li class="list-group-item">Morbi leo risus</li>
+        <li class="list-group-item">Porta ac consectetur ac</li>
+        <li class="list-group-item">Vestibulum at eros</li>
+      </ul>
+
+      <div class="list-group">
+        <a href="#" class="list-group-item active">
+          Cras justo odio
+        </a>
+        <a href="#" class="list-group-item list-group-item-success">Dapibus ac facilisis in</a>
+        <a href="#" class="list-group-item list-group-item-info">Morbi leo risus</a>
+        <a href="#" class="list-group-item list-group-item-warning">Porta ac consectetur ac</a>
+        <a href="#" class="list-group-item list-group-item-danger disabled">Vestibulum at eros</a>
+      </div>
+
+      <div class="list-group">
+        <a href="#" class="list-group-item active">
+          <h4 class="list-group-item-heading">List Header</h4>
+          <p class="list-group-item-text">Cras justo odio</p>
+        </a>
+        <a href="#" class="list-group-item list-group-item-success">
+          <h4 class="list-group-item-heading">List Header</h4>
+          <p class="list-group-item-text">Dapibus ac facilisis in</p>
+        </a>
+        <a href="#" class="list-group-item list-group-item-info">
+          <h4 class="list-group-item-heading">List Header</h4>
+          <p class="list-group-item-text">Morbi leo risus</p>
+        </a>
+        <a href="#" class="list-group-item list-group-item-warning">
+          <h4 class="list-group-item-heading">List Header</h4>
+          <p class="list-group-item-text">Porta ac consectetur ac</p>
+        </a>
+        <a href="#" class="list-group-item list-group-item-danger disabled">
+          <h4 class="list-group-item-heading">List Header</h4>
+          <p class="list-group-item-text">Vestibulum at eros</p>
+        </a>
+      </div>
+
+      <div class="panel panel-danger">
+        <div class="panel-heading">Panel heading without title</div>
+        <div class="panel-body">
+          Panel content
+        </div>
+      </div>
+
+      <div class="panel panel-info">
+        <div class="panel-heading">
+          <h3 class="panel-title">Panel title</h3>
+        </div>
+        <div class="panel-body">
+          Panel content
+        </div>
+        <div class="panel-footer">Panel footer</div>
+      </div>
+
+      <div class="panel panel-default">
+        <!-- Default panel contents -->
+        <div class="panel-heading">Panel heading</div>
+        <div class="panel-body">
+          <p>Some default panel content here. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+        </div>
+
+        <!-- Table -->
+        <table class="table table-striped table-hover table-bordered text-center">
+          <thead>
+            <tr>
+              <th class="text-center">No</th>
+              <th class="text-center">Name</th>
+              <th class="text-center">Age</th>
+              <th class="text-center">City</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>보미</td>
+              <td>24</td>
+              <td>Seoul</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>하영</td>
+              <td>22</td>
+              <td>Seoul</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>은지</td>
+              <td>25</td>
+              <td>Busan</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="panel panel-default">
+        <!-- Default panel contents -->
+        <div class="panel-heading">Panel heading</div>
+        <div class="panel-body">
+          <p>Some default panel content here. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+        </div>
+
+        <!-- List group -->
+        <ul class="list-group">
+          <li class="list-group-item">Cras justo odio</li>
+          <li class="list-group-item">Dapibus ac facilisis in</li>
+          <li class="list-group-item">Morbi leo risus</li>
+          <li class="list-group-item">Porta ac consectetur ac</li>
+          <li class="list-group-item">Vestibulum at eros</li>
+        </ul>
+      </div>
+
+      <!-- 16:9 aspect ratio -->
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/82fP9DFOizU"></iframe>
+      </div>
+
+      <!-- 4:3 aspect ratio -->
+      <div class="embed-responsive embed-responsive-4by3">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/82fP9DFOizU"></iframe>
+      </div>
+
+      <div class="well">
+        Hello, World!
+      </div>
+
+      <br><br><br><br>
+    </section>
+
+    <script src="./lib/jquery-3.1.1.min.js"></script>
+    <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

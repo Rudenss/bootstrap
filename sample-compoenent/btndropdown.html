@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap - Btn Drop Down</title>
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./lib/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <section class="container" style="padding-top: 100px;">
+      <h1>Button Drop Down</h1>
+      <!-- Single button -->
+      <div class="btn-group">
+        <button type="button" class="btn btn-danger">
+          <span class="glyphicon glyphicon-cloud" aria-hidden="true"></span> Action
+        </button>
+        <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+          <span class="caret"></span>
+          <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+          <li><a href="#"><span class="glyphicon glyphicon-hand-right" aria-hidden="true"></span> Action</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-phone" aria-hidden="true"></span> Another action</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-save" aria-hidden="true"></span> Something else here</a></li>
+          <li class="divider"></li>
+          <li><a href="#"><span class="glyphicon glyphicon-sunglasses" aria-hidden="true"></span> Separated link</a></li>
+        </ul>
+      </div>
+
+      <div class="btn-group dropup">
+        <button type="button" class="btn btn-default">Dropup</button>
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+          <span class="caret"></span>
+          <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+          <li><a href="#"><span class="glyphicon glyphicon-hand-right" aria-hidden="true"></span> Action</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-phone" aria-hidden="true"></span> Another action</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-save" aria-hidden="true"></span> Something else here</a></li>
+          <li class="divider"></li>
+          <li><a href="#"><span class="glyphicon glyphicon-sunglasses" aria-hidden="true"></span> Separated link</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <script src="./lib/jquery-3.1.1.min.js"></script>
+    <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
